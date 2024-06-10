@@ -1,0 +1,15 @@
+environment_variables: {}
+external_package_dirs: []
+model_metadata: {}
+model_name: fast-api-test
+python_version: py311
+requirements:
+  - fastapi
+  - uvicorn
+resources:
+  accelerator: null
+  cpu: '1'
+  memory: 2Gi
+  use_gpu: false
+secrets: {}
+system_packages: []
