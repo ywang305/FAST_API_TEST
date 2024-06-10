@@ -22,3 +22,5 @@ if __name__ == "__main__":
 [Baseten](https://docs.baseten.co/deploy/overview), with [Truss](https://truss.baseten.co/quickstart)
 
 there is a test.py that deployed to baseten for testing
+
+note> api key is stored in `~/.trussrc `
