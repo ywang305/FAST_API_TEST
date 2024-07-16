@@ -11,7 +11,7 @@ The main methods to implement here are:
 
 See https://truss.baseten.co/quickstart for more.
 """
-from .src.test import TestScene
+from .src.test_scene import TestScene
 
 
 class Model:
@@ -36,4 +36,7 @@ class Model:
             return self._modal.echo_name(input)
         if action == "odd_even":
             return self._modal.odd_even(input)
+        if action == "download":
+            file_id = model_input["file_id"]
+            return self._modal.download(file_id)
 

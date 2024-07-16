@@ -6,6 +6,7 @@ python_version: py311
 requirements:
   - fastapi
   - uvicorn
+  - gdown
 resources:
   accelerator: null
   cpu: '1'
