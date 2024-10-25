@@ -22,7 +22,6 @@ def file_dep(owner: str): return { "file_name": os.path.basename(__file__), "own
 def get_file(file: dict = Depends(file_dep)) -> dict:
   return file
 
-
 if __name__ == "__main__":
   import uvicorn
   uvicorn.run("controller:app", reload=True)
